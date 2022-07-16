@@ -8,8 +8,8 @@ class BladeController extends Controller
 {
     public function hello()
     {
-        $nome = "teste";
+        $name = "teste";
 
-        return view('hello', compact('nome'));
+        return view('hello', compact('name'));
     }
 }
