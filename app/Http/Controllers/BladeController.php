@@ -13,3 +13,5 @@ class BladeController extends Controller
         return view('hello', compact('name'));
     }
 }
+
+

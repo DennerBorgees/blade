@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/hello', [\App\Http\Controllers\BladeController::class, 'hello']);
+
+Route::get('/dbz', [\App\Http\Controllers\DbzController::class, 'dbz']);
+
+Route::get('/clients', [\App\Http\Controllers\ClientsController::class, 'clients']);
